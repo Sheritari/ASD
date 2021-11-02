@@ -8,7 +8,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    ChessCellCords a = new ChessCellCords();
+	ChessCellCords b = new ChessCellCords(5,7);
+	System.out.println(b);
+	ChessCellCords a = new ChessCellCords();
         System.out.println(a);
 
         a.setX(5);
