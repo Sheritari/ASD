@@ -2,6 +2,9 @@ package com.company;
 
 import java.util.Objects;
 
+/**
+ * Класс, реализующий координаты клетки шахматной доски
+ */
 public class ChessCellCords {
     //Номер клетки поля по горизонтали
     private int x;
