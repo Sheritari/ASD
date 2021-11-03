@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Homework #4
+ * Homework #3
  *
  * @author Severgin Andrey (Sheritari)
  */
