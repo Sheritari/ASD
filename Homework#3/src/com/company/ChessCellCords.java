@@ -61,10 +61,7 @@ public class ChessCellCords {
             if (x >= 0 && x <= 7) {
                 this.x = x;
             } else {
-                throw new IllegalArgumentException("Указана позиция за границей доски");
-            }
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+            throw new IllegalArgumentException("Указана позиция за границей доски");
         }
     }
 
