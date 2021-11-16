@@ -16,6 +16,7 @@ public class WordCounter {
         Scanner in = new Scanner(file);
         int counter = 0;
         while (in.hasNext()) {
+            // Проверка, осталась ли строка пустой после удаления всех символов, кроме букв и цифр Юникода.
             if (!"".equals((in.next().replaceAll("[^\\p{L}\\p{N}]+", "")))) {
                 counter++;
             }
