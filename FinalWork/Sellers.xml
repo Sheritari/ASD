@@ -1,0 +1,9 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<sellerlist>
+    <seller id="1" surname="Ivanov" name="Ivan"> </seller>
+    <seller id="2" surname="Ivanov" name="Petr"> </seller>
+    <seller id="3" surname="Severgin" name="Andrey"> </seller>
+    <seller id="4" surname="Stark" name="Tony"> </seller>
+    <seller id="5" surname="Seller" name="Best"> </seller>
+    <seller id="6" surname="Dark" name="Star"> </seller>
+</sellerlist>
